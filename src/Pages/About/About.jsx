@@ -1,4 +1,5 @@
 import React from 'react';
+import img1 from "./../../../deft.jpg"
 
 const About = () => {
     return ( 
@@ -6,7 +7,7 @@ const About = () => {
    <div>
     <h1 className='About-me'>About me</h1>
    </div>
-<img className='j' src="./deft.jpg" alt="" width={300}/>
+<img className='j' src={img1} alt="" width={300}/>
 <div className='jort'>
 Lorem ipsum dolor sit amet consectetur adipisicing elit.Sit quisquam consequatur, eius, expedita, possimus officiis<br/> laudantium sint sapiente facere minus quia qui eligendi quidem maxime quaerat natus provident adipisci aliquid. <br/>Saepe, earum explicabo tempore provident itaque aut, iusto ab laudantium voluptatum repellendus quod temporibus <br/>
     Lorem ipsum dolor sit amet consectetur adipisicing elit.Sit quisquam consequatur, eius, expedita, possimus officiis<br/> laudantium sint sapiente facere minus quia qui eligendi quidem maxime quaerat natus provident adipisci aliquid. <br/>Saepe, earum explicabo tempore provident itaque aut, iusto ab laudantium voluptatum repellendus quod temporibus <br/>
