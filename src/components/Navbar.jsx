@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
 
+
 const Navbar = () => {
     const [click,setClick]=useState(false)
     const handleClick=()=>setClick(!click)
@@ -25,7 +26,12 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className='hamburger' onClick={handleClick}>
-                   
+                    {click ? (
+                    <button>x</button>
+                    ):(
+                  
+                   <button>=</button>
+                    )}
                 </div>
             </div>
         </React.Fragment>
