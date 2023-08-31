@@ -14,8 +14,7 @@ const Navbar = () => {
                     <Link>
                     <h1 className='p'>Portfolio</h1>
                     </Link>
-                    <div className={click ? "nav-menu.active" :
-                "nav-menu"}>
+                    <div className={click ? "nav-menu.active" :"nav-menu"}>
                     <div className='rut'>
                     <Link className='h' to={"/"}>Logo</Link>
                     <NavLink className='h'  to={"/"}>Home</NavLink>
