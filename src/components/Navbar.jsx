@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import {FaBars, FaTimes} from 'react-icons/Fa'
 
 
 const Navbar = () => {
@@ -26,12 +25,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className='hamburger' onClick={handleClick}>
-                    {click ? (
-                    <FaTimes size={20} style={{color:"#fff"}} />
-                    ):(
-                  
-                    <FaBars size={20} style={{color:"#fff"}} />
-                    )}
+                   
                 </div>
             </div>
         </React.Fragment>
