@@ -12,11 +12,11 @@ const Navbar = () => {
                 <div className="logo">
                     <div className='co'>
                     <Link>
-                    <h1 className='p'>Portfolio</h1>
+                    <h1 className='p'>𝕻𝖔𝖗𝖙𝖎𝖋𝖔𝖑𝖎</h1>
                     </Link>
                     <div className={click ? "nav-menu.active" :"nav-menu"}>
                     <div className='rut'>
-                    <Link className='h' to={"/"}>Logo</Link>
+                    {/* <Link className='h' to={"/"}>Logo</Link> */}
                     <NavLink className='h'  to={"/"}>Home</NavLink>
                     <NavLink className='h' to={"/about"}>About</NavLink>
                     <NavLink className='h' to={"/contact"}>Contact</NavLink>
